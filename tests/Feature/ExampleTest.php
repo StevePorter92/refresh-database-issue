@@ -10,6 +10,13 @@ class ExampleTest extends TestCase
     use RefreshDatabase;
 
     /**
+     * Connections to transact
+     *
+     * @var array
+     */
+    protected $connectionsToTransact = ['mysql', 'mysql2'];
+
+    /**
      * A basic test example.
      *
      * @return void
