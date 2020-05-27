@@ -68,7 +68,7 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('MYSQL2_DB_HOST', '127.0.0.1'),
             'port' => env('MYSQL2_DB_PORT', '3306'),
-            'database' => env('MYSQL2_DB_DATABASE', 'forge'),
+            'database' => env('MYSQL2_DB_DATABASE', 'test'),
             'username' => env('MYSQL2_DB_USERNAME', 'forge'),
             'password' => env('MYSQL2_DB_PASSWORD', ''),
             'unix_socket' => env('MYSQL2_DB_SOCKET', ''),
