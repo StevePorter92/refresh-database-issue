@@ -5,6 +5,7 @@
 Launch the mysql container and run `php artisan test` twice
 
 ```shell
+git@github.com:StevePorter92/refresh-database-issue.git
 docker-compose up -d
 php artisan test
 php artisan test
